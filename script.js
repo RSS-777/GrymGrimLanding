@@ -8,9 +8,7 @@ const contactEmailInput = document.querySelector(".form-contacts__input-email");
 const contactMessageInput = document.querySelector(".form-contacts__textarea");
 const contactNameError = document.querySelector(".form-contacts__error-name");
 const contactEmailError = document.querySelector(".form-contacts__error-email");
-const contactMessageError = document.querySelector(
-  ".form-contacts__error-message"
-);
+const contactMessageError = document.querySelector(".form-contacts__error-message");
 const popup = document.querySelector(".popup");
 const formConcert = document.querySelector(".concert-form");
 const concertName = document.querySelector(".concert-form__input-name");
@@ -164,7 +162,7 @@ formConcert.addEventListener("submit", async (event) => {
     popup.classList.remove("popup-active");
     document.body.style.overflow = "";
 
-    // Приклад POST-запиту: форми відправляються пост запитом!!! У вас в док. написо get (не вірно)!!!
+    // Приклад POST-запиту: форми відправляються пост запитом!!!
     // const params = {
     //   name: concertName.value.trim(),
     //   email: concertEmail.value.trim(),

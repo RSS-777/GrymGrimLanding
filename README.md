@@ -4,7 +4,7 @@ The site represents the Ukrainian rock band “Hrym ta Hrim” – with powerful
 
 ---
 
-[Try it now]()
+[Try it now](https://rss-777.github.io/GrymGrimLanding/)
 
 ---
 

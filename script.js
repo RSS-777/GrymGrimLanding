@@ -27,6 +27,7 @@ inputBurger.addEventListener("change", () => {
 
 aboutButton.addEventListener("click", () => {
   popup.classList.add("popup-active");
+  document.body.style.overflow = "hidden";
 });
 
 concertsButtons.forEach((el) =>
